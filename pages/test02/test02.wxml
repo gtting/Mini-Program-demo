@@ -1,0 +1,64 @@
+<view class="container">
+  <view class="c_item c_title" style='display:flex;line-height:inherit;'>
+    <!-- <view class="t_img">
+      <image style="width:50px;height:50px;"src='../../images/0.jpg'></image>
+    </view> -->
+    <view class="userinfo">
+       <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button> 
+      <block wx:else>
+        <image style="width:50px;height:50px;vertical-align: middle;" bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+        <text style="margin-left:20px" class="userinfo-nickname">{{userInfo.nickName}}</text>
+      </block>
+    </view>
+    <view class="iconfont icon-icon"></view>
+  </view>
+  <view class="c_item">
+    <view class="iconfont icon-qianbao"></view>
+    <view class="c_center">钱包</view>
+    <view class="iconfont icon-icon"></view>
+  </view>
+  <view class="c_item m0" style='margin-top:10px;'>
+    <view class="iconfont icon-shoucang11"></view>
+    <view class="c_center">收藏</view>
+    <view class="iconfont icon-icon"></view>
+  </view>
+   <view class="c_item m0">
+    <view class="iconfont icon-xiangce"></view>
+    <view class="c_center">相册</view>
+    <view class="iconfont icon-icon"></view>
+  </view>
+   <view class="c_item m0">
+    <view class="iconfont icon-iconqiabao"></view>
+    <view class="c_center">卡包</view>
+    <view class="iconfont icon-icon"></view>
+  </view>
+   <view class="c_item m0" style='margin-bottom:10px;'>
+    <view class="iconfont icon-biaoqing"></view>
+    <view class="c_center">表情</view>
+    <view class="iconfont icon-icon"></view>
+  </view>
+  <view class="c_item">
+    <view class="iconfont icon-shezhi"></view>
+    <view class="c_center">设置</view>
+    <view class="iconfont icon-icon"></view>
+  </view>
+  <view class="bottom-bar">
+    <view>
+      <view class="iconfont icon-xiaoxi"></view>
+      <text>微信</text>
+    </view>
+    <view>
+      <view class="iconfont icon-tongxunlu"></view>
+      <text>通讯录</text>
+    </view>
+    <view>
+      <view class="iconfont icon-faxian"></view>
+      <text>发现</text>
+    </view>
+    <view>
+      <view class="iconfont icon-wo"></view>
+      <text>我</text>
+    </view>
+  </view>
+</view>
+
