@@ -102,5 +102,10 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+  toast:function(){
+    wx.navigateBack({
+      
+    })
   }
 })

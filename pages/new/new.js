@@ -62,5 +62,13 @@ Page({
    */
   onShareAppMessage: function () {
   
+  },
+  /**
+   * 页面跳转
+   */
+  toast:function(){
+    wx.navigateTo({
+      url:"../test02/test02"
+    })
   }
 })

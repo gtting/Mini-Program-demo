@@ -1,2 +1,26 @@
 <!--pages/new/new.wxml-->
-<text>pages/new/new.wxml</text>
+<view class="container">
+  <swiper indicator-dots="true" autoplay="true" interval="2000">
+    <swiper-item><image src="../../images/tab/1.jpg"></image></swiper-item>
+    <swiper-item><image src="../../images/tab/2.jpg"></image></swiper-item>
+    <swiper-item><image src="../../images/tab/3.jpg"></image></swiper-item>
+  </swiper>
+  <view class="wrap">
+    <view class="new-author-date">
+      <image src="../../images/0.jpg" class="new-author"></image>
+      <text class="new-date">Nov 25 2016</text>
+    </view>
+    <view class="new-info" bindtap='toast'>
+      <text class="new-info-tile">正是虾肥蟹壮时</text>
+      <image src="../../images/info-img.jpg" class="new-info-img"></image>
+      <text class="new-info-summary">菊黄蟹正肥，品尝秋之味。徐志摩把,“看初花的荻芦”和“到楼外楼吃蟹”,并列为秋天来杭州不能错过的风雅之事；用林妹妹的话讲是“螯封嫩玉双双满，</text>
+    </view>
+    <view class="new-img-num">
+      <image src="../../images/tab/1.jpg" class="new-img"></image>
+      <text class="new-num">112</text>
+      <image src="../../images/tab/2.jpg" class="new-img"></image>
+      <text class="new-num">96</text>
+    </view> 
+  </view>
+</view>
+
