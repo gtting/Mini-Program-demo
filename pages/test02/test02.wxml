@@ -42,24 +42,5 @@
     <view class="c_center">设置</view>
     <view class="iconfont icon-icon"></view>
   </view>
-  <navigator url="www.baidu.com">跳百度</navigator>
-  <view class="bottom-bar">
-    <view>
-      <view class="iconfont icon-xiaoxi"></view>
-      <text>微信</text>
-    </view>
-    <view>
-      <view class="iconfont icon-tongxunlu"></view>
-      <text>通讯录</text>
-    </view>
-    <view>
-      <view class="iconfont icon-faxian"></view>
-      <text>发现</text>
-    </view>
-    <view>
-      <view class="iconfont icon-wo"></view>
-      <text>我</text>
-    </view>
-  </view>
 </view>
 
